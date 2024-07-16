@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: hsl(180, 88%, 93%);
+}
+#myh1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+#display{
+    font-size: 3em;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px 15px;
+}
+#button button{
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+#startbtn{
+    background-color: rgb(0, 141, 0);
+}
+#startbtn:hover{
+    background-color: rgb(0, 84, 0);
+}
+
+#stopbtn{
+    background-color: rgb(192, 48, 8);
+}
+#stopbtn:hover{
+    background-color: rgb(86, 26, 0);
+}
+
+#resetbtn{
+    background-color: rgb(4, 140, 160);
+}
+#resetbtn:hover{
+    background-color: rgb(1, 78, 85);
+}
